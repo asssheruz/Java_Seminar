@@ -1,23 +1,23 @@
 // Создать словарь с ключом число и значением - случайное число.
 // Вывести в консоль только пары в которых значение кратно двум!
-package Seminar5;
+package untitled1;
 
 import java.util.HashMap;
 import java.util.Random;
 
-    //Создать словарь с ключом число и значением - случайное число. Вывести в консоль только пары в которых значение кратно двум!
+    //Создать словарь с ключом число и значением - случайное число. Вывести в
+    // консоль только пары в которых значение кратно двум!
     public class Seminar5 {
         public static void main(String[] args) {
-            HashMap<Integer,Integer> map = map1();
+            HashMap<Integer, Integer> map = map1();
             System.out.println(map);
-            for (int i: map.values()) {
-                if (i % 2 == 0){
+            for (int i : map.values()) {
+                if (i % 2 == 0) {
                     System.out.println(i);
                 }
             }
-
-
         }
+
         public static HashMap<Integer,Integer> map1(){
             HashMap<Integer,Integer> map1 = new HashMap<>();
             for (int i = 0; i < 10; i++){
@@ -26,9 +26,6 @@ import java.util.Random;
             }
             return map1;
         }
-
-    }
-
 
 
     List<Person> persons = new ArrayList<>();
@@ -46,10 +43,10 @@ import java.util.Random;
             }
             return t.getAge() - t1.getAge();
         }
-    });
+
     System.out.println(persons);
 
-}}
+}
 
 // Создать два словаря, ключи это случайные числа до 25
 // а значения первого списка мужские имена а второго женские.
@@ -58,9 +55,3 @@ import java.util.Random;
         import java.util.HashMap;
         import java.util.Map;
 
-public class Seminar_5 {
-    public static void main(String[] args) {
-        Map tb = new HashMap<>(0, 0);
-
-    }
-}
